@@ -699,7 +699,7 @@ function post_data_to_url($data)
     $json = json_encode($data);
     $headers = array();
     $headers[] = 'Content-Type: application/json';
-    $headers[] =  'Authorization: Token D7M5P5d0hk45Xcjxes7F1o34dn00lip3pc6A';
+    $headers[] =  'Authorization: Token ';
     
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
